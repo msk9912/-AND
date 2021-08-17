@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-<item
-    android:id="@+id/navigation_1"
-    android:icon="@drawable/home"
-    android:title="1st TAB" />
+    <item
+        android:id="@+id/navigation_1"
+        android:icon="@drawable/list"
+        android:title="1st TAB" />
 
-<item
-    android:id="@+id/navigation_2"
-    android:icon="@drawable/list"
-    android:title="2nd TAB" />
+    <item
+        android:id="@+id/navigation_2"
+        android:icon="@drawable/community"
+        android:title="2nd TAB" />
 
-<item
-    android:id="@+id/navigation_3"
-    android:icon="@drawable/chat"
-    android:title="3rd TAB" />
+    <item
+        android:id="@+id/navigation_3"
+        android:icon="@drawable/home_butterfly"
+        android:title="3rd TAB" />
 
     <item
         android:id="@+id/navigation_4"
-        android:icon="@drawable/user"
+        android:icon="@drawable/chat"
         android:title="4th TAB" />
+
+    <item
+        android:id="@+id/navigation_5"
+        android:icon="@drawable/user"
+        android:title="5th TAB" />
 
 </menu>

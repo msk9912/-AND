@@ -53,8 +53,12 @@ public class MainActivity extends AppCompatActivity {
             {
                 fragment = new fragment_page_3();
             }
-            else{
+            else if (id == R.id.navigation_4)
+            {
                 fragment = new fragment_page_4();
+            }
+            else{
+                fragment = new fragment_page_5();
             }
 
             fragmentTransaction.add(R.id.content_layout, fragment, tag);
